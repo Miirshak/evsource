@@ -34,7 +34,7 @@ int cmdExecNewUser( unsigned char *name, unsigned char *pass, unsigned char *fac
 	
   a = dbUserAdd( name, faction, "Player" );
 
-printf( "Create user %d\n", a );
+  printf( "Create user %d\n", a );
 
   sprintf( cmdUserMainDefault.faction, faction );
   sprintf( cmdUserMainDefault.forumtag, "Player" );
